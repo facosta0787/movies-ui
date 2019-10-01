@@ -1,8 +1,19 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React, { Fragment } from 'react'
+import { createGlobalStyle } from 'styled-components'
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+`
 
 const App = () => {
-  return <h1>Hola Mundo!</h1>
+  return (
+    <Fragment>
+      <GlobalStyle />
+      <h1>Hola Mundo!</h1>
+    </Fragment>
+  )
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+export default App

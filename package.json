@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel -p 5000 public/index.html",
+    "start": "npm run clean && parcel -p 5000 public/index.html",
     "build": "parcel build src/app.js --no-cache",
-    "lint": "eslint --fix ."
+    "lint": "eslint --fix .",
+    "clean": "rm -rf .cache && rm -rf dist"
   },
   "author": "@facosta0787",
   "license": "MIT",
   "dependencies": {
     "react": "^16.10.1",
-    "react-dom": "^16.10.1"
+    "react-dom": "^16.10.1",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
