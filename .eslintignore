@@ -2,3 +2,8 @@ node_modules
 .next
 .cache
 dist
+.eslintignore
+.eslintrc.json
+.editorconfig
+.prettierignore
+.prettierrc

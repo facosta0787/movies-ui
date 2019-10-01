@@ -3,3 +3,8 @@ node_modules
 package-lock.json
 .cache
 dist
+.eslintignore
+.eslintrc.json
+.editorconfig
+.prettierignore
+.prettierrc
