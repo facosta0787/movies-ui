@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { createGlobalStyle } from 'styled-components'
 import Header from './Header'
+import Main from './Main'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -14,6 +15,7 @@ const App = () => {
     <Fragment>
       <GlobalStyle />
       <Header />
+      <Main />
     </Fragment>
   )
 }

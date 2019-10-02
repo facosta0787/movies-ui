@@ -22,6 +22,7 @@
     "object-shorthand": "off",
     "class-methods-use-this": "off",
     "react/jsx-filename-extension": "off",
-    "react/jsx-fragments": "off"
+    "react/jsx-fragments": "off",
+    "import/prefer-default-export": "off"
   }
 }

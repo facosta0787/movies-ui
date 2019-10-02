@@ -13,8 +13,13 @@
   "author": "@facosta0787",
   "license": "MIT",
   "dependencies": {
+    "@apollo/react-hooks": "^3.1.2",
     "@fortawesome/fontawesome-free": "^5.11.2",
+    "apollo-boost": "^0.4.4",
+    "graphql": "^14.5.8",
     "react": "^16.10.1",
+    "react-apollo": "^3.1.2",
+    "react-boost": "^1.1.0",
     "react-dom": "^16.10.1",
     "reset-css": "^4.0.1",
     "styled-components": "^4.4.0"
