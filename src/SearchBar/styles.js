@@ -6,7 +6,7 @@ export const InputSearch = styled.input`
   box-sizing: border-box;
   background-color: #f5f7fa;
   color: #4c5765;
-  border: 0;
+  border: 1px solid #f5f7fa;
   border-radius: 5px;
   padding: 10px;
   font-size: 14px;
